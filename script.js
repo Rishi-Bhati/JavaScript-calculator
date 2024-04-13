@@ -1,25 +1,3 @@
-// var answer = 0;
-// var num1 = " ";
-// var num2 = " ";
-// op = " ";
-// var key = document.querySelectorAll(".keys button"); // Select all child divs with class "choice"
-
-// // key.forEach((btn) => {
-// //     btn.addEventListener("click", () => {
-// //         var btnId = btn.getAttribute("id");
-// //         play(btnId);
-// //     });
-// // });
-
-// if(op == "+") {
-//     key.forEach((btn) => {
-//             btn.addEventListener("click", () => {
-//                 var num2 = btn.getAttribute("id");
-//                 console.log(num2);
-//             });
-//         });
-// }
-
 document.addEventListener("DOMContentLoaded", function() {
     const display = document.getElementById("display");
     const keys = document.querySelectorAll(".keys button");
