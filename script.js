@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
             
             if (keyValue === "=") {
                 try {
-                    // display.value = eval(display.value);
+                    display.value = eval(display.value);
                     const result = new Function('return ' + display.value)();
                     display.value = isNaN(result) ? 'Error' : result;
                 } catch (error) {
